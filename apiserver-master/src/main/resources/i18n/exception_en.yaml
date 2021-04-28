@@ -1,0 +1,14 @@
+# exception_en.yml
+unKnown:
+  code: "-9999"
+  msg: "An unknown error has occurred."
+# for DB error
+databaseInsertError:
+  code: "-4000"
+  msg: "An error has occurred when inserting task."
+databaseSelectError:
+  code: "-4001"
+  msg: "An error has occurred when selecting task."
+resourceNotExist:
+  code: "-1007"
+  msg: "This resource does not exist."

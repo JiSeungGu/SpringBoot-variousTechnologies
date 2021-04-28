@@ -1,0 +1,14 @@
+# exception_ko.yml
+unKnown:
+  code: "-9999"
+  msg: "알수 없는 오류가 발생 했습니다."
+# for DB error
+databaseInsertError:
+  code: "-4000"
+  msg: "인서트 작업 시 에러가 발생 했습니다."
+databaseSelectError:
+  code: "-4001"
+  msg: "셀렉트 작업 시 에러가 발생 했습니다."
+resourceNotExist:
+  code: "-1007"
+  msg: "요청한 자원이 존재 하지 않습니다."
